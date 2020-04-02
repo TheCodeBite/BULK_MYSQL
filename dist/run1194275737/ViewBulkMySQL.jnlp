@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ViewBulkMySQL.jnlp">
+  <information>
+    <title>ViewBulkMySQL</title>
+    <vendor>Kevin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ViewBulkMySQL.jar" size="6140" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.15-bin.jar" size="785998" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="viewbulkmysql.ViewBulkMySQL"  name="ViewBulkMySQL" />
+  <update check="always"/>
+</jnlp>
